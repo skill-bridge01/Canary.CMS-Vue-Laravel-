@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-5 flex gap-0 justify-center">
+  <div class="pt-7 flex gap-0 justify-center">
     <div
       class="pr-14 pl-28 py-5 flex justify-center gap-14 bg-[#45315D] rounded-tl-2xl rounded-bl-2xl text-[#E2E2E2] text-base"
     >

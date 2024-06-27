@@ -3,10 +3,26 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        yellow: {
+          DEFAULT: "#FFFF00",
+          light: "#FEF6C5",
+          dark: "#FF931E",
+        },
+      },
+      boxShadow: {
+        "3xl": "0px 3px 10px 0px rgba(0, 0, 0, 0.0784)",
+        "4xl": "0px 10px 15px 0px rgba(0, 0, 0, 0.0784)",
+        "form":"0px 8px 15px 4px rgba(0, 0, 0, 0.0784)"
+      },
+      dropShadow: {
+        "3xl": "0px 3px 10px 0px rgba(0, 0, 0, 0.0784)",
+      },
+    },
   },
-  plugins: [],
-}
-
+  plugins: [require("flowbite/plugin")],
+};

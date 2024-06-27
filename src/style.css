@@ -4,6 +4,34 @@
 @tailwind utilities;
 
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 9999s;
+    transition-delay: 9999s;
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="tex"]),
+input:not([type="checkbox"]):not([type="radio"]):not([type="tex"]):focus,
+input:not([type="checkbox"]):not([type="radio"]):not([type="tex"]):active,
+textarea,
+textarea:focus,
+textarea:active {
+    border: none;
+    -webkit-transition-delay: 9999s;
+    transition-delay: 9999s;
+    -webkit-box-shadow: 0 0 0 30px #F6F6F6 inset !important;
+    box-shadow: 0 0 0 30px #F6F6F6 inset !important;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -17,12 +45,13 @@
 }
 
 a {
-  color: #E2E2E2;
+  color: #e2e2e2;
   text-decoration: inherit;
 }
-a:hover, a:active {
+a:hover,
+a:active {
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* a:link {
@@ -52,8 +81,6 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  /* min-height: 100vh; */
-  /* direction: rtl; */
 }
 
 h1 {
@@ -61,7 +88,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -78,14 +105,14 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 .card {
   padding: 2em;
 }
 
 #app {
-  min-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   /* background-color: #ffffff; */

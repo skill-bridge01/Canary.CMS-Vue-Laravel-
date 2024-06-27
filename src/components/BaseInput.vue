@@ -76,7 +76,7 @@ const setDate = (value) => {
 </script>
 <template>
   <div>
-    <div class="flex items-center bg-[#F6F6F6] rounded-lg border pt-3 pb-1 m-0">
+    <div class="flex items-center bg-[#F6F6F6] rounded-lg border pt-[18px] pb-[10px] m-0">
       <div
         v-if="inputType === 'date'"
         class="relative text-gray-600 search-bar mx-3 flex w-full"
@@ -99,7 +99,7 @@ const setDate = (value) => {
         class="relative text-[#313131] font-normal search-bar flex w-full"
       >
         <input
-          class="text-xs border-none focus:outline-none text-start w-full"
+          class="text-xs border-none focus:outline-none text-start w-full px-4"
           :type="props.inputType"
           :name="props.name"
           :placeholder="props.placeholder"

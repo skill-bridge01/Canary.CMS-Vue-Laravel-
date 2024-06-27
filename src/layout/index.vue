@@ -9,7 +9,7 @@ const { locale } = useI18n();
     <Header />
     <div>
       <main>
-        <div class="pt-9">
+        <div class="">
           <div>
             <router-view />
           </div>

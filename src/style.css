@@ -16,7 +16,7 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     -webkit-transition-delay: 9999s;
     transition-delay: 9999s;
-    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    -webkit-box-shadow: 0 0 0 30px #F6F6F6 inset !important;
 }
 
 input:not([type="checkbox"]):not([type="radio"]):not([type="tex"]),
@@ -36,7 +36,7 @@ textarea:active {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #242424;
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

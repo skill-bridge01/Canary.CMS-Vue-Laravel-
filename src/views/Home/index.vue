@@ -12,8 +12,8 @@ import "vue3-carousel/dist/carousel.css";
 const { t, locale } = useI18n();
 </script>
 <template>
-  <div class="">
-    <div class="relative flex">
+  <div>
+    <div class="relative flex pt-9">
       <div class="max-w-[1440px] mx-auto">
         <div class="pt-14 xl:px-24 px-10 xl:gap-32 gap-14 flex items-center">
           <div class="">
@@ -31,9 +31,7 @@ const { t, locale } = useI18n();
     </div>
     <img class="pt-28 w-full" src="/images/home/2.svg" />
 
-    <!-- Section1 -->
     <Services />
-
     <ResourceLibrary />
     <Articles />
     <FAQ />

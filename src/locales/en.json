@@ -81,6 +81,46 @@
     "letter": "letter",
     "sendNow": "Send Now"
   },
+  "footer": {
+    "aboutUs": {
+      "title": "About Us",
+      "content": "We are Canary for Artistic Production, we build bridges through sound, and we realize visions through podcasts. We specialize in producing high-quality audio content."
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "address": "Address",
+      "addressContent": "Palestine - Gaza",
+      "email": "Email",
+      "phone": "Phone Number"
+    },
+    "ourServices": {
+      "title": "Our Services",
+      "podCard": "- Podcast Production",
+      "script": "- Script Preparation",
+      "technical": "- Technical and Technical Support"
+    },
+    "importantLinks": {
+      "title": "Important Links",
+      "aboutUs": "- About Us",
+      "blog": "- Blog",
+      "articles": "- Articles"
+    },
+    "allRight": "All rights reserved"
+  },
+  "services": {
+    "podCast": {
+      "title": "Podcast Production",
+      "content": "In addition to podcast production, marketing, and promotion, we also design and execute comprehensive marketing campaigns to increase awareness of the podcast and attract your target audience."
+    },
+    "script": {
+      "title": "Script Preparation and Creative Editing",
+      "content": "In addition to podcast production, marketing, and promotion, we also design and execute comprehensive marketing campaigns to increase awareness of the podcast and attract your target audience."
+    },
+    "consulting": {
+      "title": "Consulting and Strategic Guidance",
+      "content": "In addition to podcast production, marketing, and promotion, we also design and execute comprehensive marketing campaigns to increase awareness of the podcast and attract your target audience."
+    }
+  },
   "common": {
     "appName": "Laundry",
     "phoneNumber": "Phone number",
@@ -240,29 +280,6 @@
       },
       "delete": {
         "title": "Delete piece"
-      }
-    }
-  },
-  "services": {
-    "create": "Create service",
-    "table": {
-      "actions": "Actions",
-      "serviceNumber": "Number",
-      "date": "Date",
-      "service": "Service",
-      "checked": "Checked",
-      "shown": "Shown"
-    },
-    "modal": {
-      "create": {
-        "title": "Create a new service",
-        "placeholder": "Service Name"
-      },
-      "edit": {
-        "title": "Edit service"
-      },
-      "delete": {
-        "title": "Delete service"
       }
     }
   },

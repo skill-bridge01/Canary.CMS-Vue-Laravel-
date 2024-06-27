@@ -1,5 +1,4 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from "vue";
 import { useI18n } from "vue-i18n";
 import CardBox from "@/components/CardBox.vue";
 import "vue3-carousel/dist/carousel.css";

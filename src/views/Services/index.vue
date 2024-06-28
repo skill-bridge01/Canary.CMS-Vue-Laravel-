@@ -25,7 +25,7 @@ const { t, locale } = useI18n();
         ></div>
       </div>
     </div>
-    <div class="pt-16">
+    <div class="pt-16 pb-16">
       <div class="flex">
         <service-card
           class="border-t ltr:border-r rtl:border-l border-[#E2E2E2]"

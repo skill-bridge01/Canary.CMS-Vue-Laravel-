@@ -121,6 +121,21 @@
       "content": "In addition to podcast production, marketing, and promotion, we also design and execute comprehensive marketing campaigns to increase awareness of the podcast and attract your target audience."
     }
   },
+  "library": {
+    "title": "Ways to Create a Podcast from Scratch",
+    "content1": "There has been a long-established fact that the readable content of a page will distract the reader from focusing on the external appearance, you can choose whatever the circumstance may be",
+    "content2": "There has been a long-established fact that the readable content of a page",
+    "readMore": "Read more",
+    "details": {
+      "blogPost": "Blog Post",
+      "suggestedBlog": "Suggested Blogs",
+      "card": {
+        "title": "Ways to Create a Podcast from Scratch",
+        "content": "There has been a long-established fact that the readable content of a page will distract the reader from focusing on the external appearance",
+        "storyView": "View Story"
+      }
+    }
+  },
   "common": {
     "appName": "Laundry",
     "phoneNumber": "Phone number",

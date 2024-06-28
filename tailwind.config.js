@@ -17,10 +17,16 @@ export default {
       boxShadow: {
         "3xl": "0px 3px 10px 0px rgba(0, 0, 0, 0.0784)",
         "4xl": "0px 10px 15px 0px rgba(0, 0, 0, 0.0784)",
-        "form":"0px 8px 15px 4px rgba(0, 0, 0, 0.0784)"
+        form: "0px 8px 15px 4px rgba(0, 0, 0, 0.0784)",
+        library: "0px 3px 10px 0px rgba(0, 0, 0, 0.102)",
+        post:"0px 3px 3px 0px rgba(0, 0, 0, 0.1608)"
       },
       dropShadow: {
         "3xl": "0px 3px 10px 0px rgba(0, 0, 0, 0.0784)",
+      },
+      borderRadius: {
+        'l0': '10px',
+        'normal': '10px',
       },
       // backgroundImage: {
       //   'footer-pattern': "url('/images/home/footer.svg')",

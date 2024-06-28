@@ -3,17 +3,15 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
   {
     path: "/",
-    name: "Home",
     component: () => import("../layout/index.vue"),
-    redirect: "/home",
-    meta: {
-      title: "Home",
-    },
+    // redirect: "/home",
+    // meta: {
+    //   title: "Home",
+    // },
 
     children: [
       {
-        path: "/home",
-        name: "Home",
+        path: "home",
         component: () => import("../views/Home/index.vue"),
         meta: {
           title: "",
@@ -31,6 +29,41 @@ const routes = [
         path: "/library",
         name: "Resource Library",
         component: () => import("../views/Library/index.vue"),
+        meta: {
+          title: "",
+        },
+        // children: [
+        //   {
+        //     path: "blog1",
+        //     name: "Blog1",
+        //     component: () => import("../views/Library/Blog.vue"),
+        //     meta: {
+        //       title: "",
+        //     },
+        //   },
+        // ],
+      },
+      {
+        path: "/details",
+        name: "Details",
+        component: () => import("../views/Library/components/Details.vue"),
+        meta: {
+          title: "",
+        },
+      },
+      {
+        path: "/articles",
+        name: "Articles",
+        component: () => import("../views/Articles/index.vue"),
+        meta: {
+          title: "",
+        },
+      },
+
+      {
+        path: "/pagination",
+        name: "Pagination",
+        component: () => import("../views/Pagination/index.vue"),
         meta: {
           title: "",
         },

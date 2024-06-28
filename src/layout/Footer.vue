@@ -6,7 +6,7 @@ import "vue3-carousel/dist/carousel.css";
 const { t, locale } = useI18n();
 </script>
 <template>
-  <div class="mt-32 overflow-visible footer-background bg-no-repeat px-24 pb-2">
+  <div class="overflow-visible footer-background bg-no-repeat px-24 pb-2">
     <div class="flex justify-end">
       <div class="flex gap-[10px] pt-16 z-10 pb-9">
         <img src="/images/home/facebook-icon.svg" />

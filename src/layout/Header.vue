@@ -35,7 +35,7 @@ console.log("local", locale.value);
         </div>
         <div
           :class="[
-            'xl:px-20 px-10 py-5 flex justify-center xl:gap-14 gap-10 bg-[#45315D]  text-[#E2E2E2] text-base',
+            'xl:px-20 px-10 py-5 flex justify-center items-center xl:gap-14 gap-10 bg-[#45315D]  text-[#E2E2E2] text-base',
             locale === 'en'
               ? 'rounded-tr-2xl rounded-br-2xl'
               : 'rounded-tl-2xl rounded-bl-2xl',
@@ -44,7 +44,7 @@ console.log("local", locale.value);
           <router-link to="/home">{{ t("header.home") }}</router-link>
           <router-link to="/services">{{ t("header.service") }}</router-link>
           <router-link to="/library">{{ t("header.resource") }}</router-link>
-          <p>{{ t("header.articles") }}</p>
+          <router-link to="/articles">{{ t("header.articles") }}</router-link>
           <p>{{ t("header.faq") }}</p>
           <p>{{ t("header.aboutUs") }}</p>
           <p>{{ t("header.contactUs") }}</p>

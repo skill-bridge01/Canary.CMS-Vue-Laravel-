@@ -11,8 +11,11 @@
   "dependencies": {
     "flowbite": "^2.3.0",
     "pinia": "^2.1.7",
+    "v-page": "^3.1.0",
+    "v-pagination": "^0.1.4",
     "vee-validate": "^4.13.1",
     "vue": "^3.4.29",
+    "vue-awesome-paginate": "^1.2.0",
     "vue-i18n": "^9.13.1",
     "vue-router": "^4.4.0",
     "vue3-carousel": "^0.3.3",

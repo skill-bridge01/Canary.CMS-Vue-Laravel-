@@ -12,7 +12,7 @@ import "vue3-carousel/dist/carousel.css";
 const { t, locale } = useI18n();
 </script>
 <template>
-  <div>
+  <div class="mb-32">
     <div class="relative flex pt-9">
       <div class="max-w-[1440px] mx-auto">
         <div class="pt-14 xl:px-24 px-10 xl:gap-32 gap-14 flex items-center">

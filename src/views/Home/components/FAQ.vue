@@ -24,18 +24,7 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener("resize", updateItemsToShow);
 });
-const slides = ref([
-  {
-    content: "Slide 1 Content",
-    url: "/images/home/carousel2-1.svg",
-    btn: "اللإطلاع على المدونة",
-  },
-  {
-    content: "Slide 2 Content",
-    url: "/images/home/carousel2-2.svg",
-    btn: "اللإطلاع على المدونة",
-  },
-]);
+
 const { t, locale } = useI18n();
 </script>
 <template>
@@ -63,7 +52,7 @@ const { t, locale } = useI18n();
     </div>
     <div class="pt-8">
       <div id="accordion-collapse" data-accordion="collapse">
-        <div class="bg-[#FCFCFC] border-[1px] border-[#EEEEEE] my-4">
+        <div class="bg-[#FCFCFC] border-[1px] border-[#EEEEEE] my-4 rounded-md">
           <h2 id="accordion-collapse-heading-1">
             <button
               type="button"
@@ -105,7 +94,7 @@ const { t, locale } = useI18n();
         </div>
 
         <!-- accordion2 -->
-        <div class="bg-[#FCFCFC] border-[1px] border-[#EEEEEE] my-4">
+        <div class="bg-[#FCFCFC] border-[1px] border-[#EEEEEE] my-4 rounded-md">
           <h2 id="accordion-collapse-heading-2">
             <button
               type="button"
@@ -147,7 +136,7 @@ const { t, locale } = useI18n();
         </div>
 
         <!-- accordion3 -->
-        <div class="bg-[#FCFCFC] border-[1px] border-[#EEEEEE] my-4">
+        <div class="bg-[#FCFCFC] border-[1px] border-[#EEEEEE] my-4 rounded-md">
           <h2 id="accordion-collapse-heading-3">
             <button
               type="button"
@@ -189,7 +178,7 @@ const { t, locale } = useI18n();
         </div>
 
         <!-- accordion4 -->
-        <div class="bg-[#FCFCFC] border-[1px] border-[#EEEEEE] my-4">
+        <div class="bg-[#FCFCFC] border-[1px] border-[#EEEEEE] my-4 rounded-md">
           <h2 id="accordion-collapse-heading-4">
             <button
               type="button"
@@ -231,7 +220,7 @@ const { t, locale } = useI18n();
         </div>
 
         <!-- accordion5 -->
-        <div class="bg-[#FCFCFC] border-[1px] border-[#EEEEEE] my-4">
+        <div class="bg-[#FCFCFC] border-[1px] border-[#EEEEEE] my-4 rounded-md">
           <h2 id="accordion-collapse-heading-5">
             <button
               type="button"

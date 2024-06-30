@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
   {
     path: "/",
+    name: "Canary",
     component: () => import("../layout/index.vue"),
     // redirect: "/home",
     // meta: {
@@ -12,6 +13,7 @@ const routes = [
     children: [
       {
         path: "home",
+        name: "Home",
         component: () => import("../views/Home/index.vue"),
         meta: {
           title: "",
@@ -32,16 +34,6 @@ const routes = [
         meta: {
           title: "",
         },
-        // children: [
-        //   {
-        //     path: "blog1",
-        //     name: "Blog1",
-        //     component: () => import("../views/Library/Blog.vue"),
-        //     meta: {
-        //       title: "",
-        //     },
-        //   },
-        // ],
       },
       {
         path: "/details",
@@ -52,11 +44,27 @@ const routes = [
         },
       },
       {
+        path: "/articles/full",
+        name: "Full",
+        component: () => import("../views/Articles/components/Full.vue"),
+        meta: {
+          title: "",
+        },
+      },
+      {
         path: "/articles",
         name: "Articles",
         component: () => import("../views/Articles/index.vue"),
         meta: {
-          title: "",
+          title: "article",
+        },
+      },
+      {
+        path: "/faq",
+        name: "FAQ",
+        component: () => import("../views/FAQ/index.vue"),
+        meta: {
+          title: "faq",
         },
       },
 

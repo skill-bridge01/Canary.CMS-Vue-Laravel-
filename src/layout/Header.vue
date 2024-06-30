@@ -45,7 +45,7 @@ console.log("local", locale.value);
           <router-link to="/services">{{ t("header.service") }}</router-link>
           <router-link to="/library">{{ t("header.resource") }}</router-link>
           <router-link to="/articles">{{ t("header.articles") }}</router-link>
-          <p>{{ t("header.faq") }}</p>
+          <router-link to="/faq">{{ t("header.faq") }}</router-link>
           <p>{{ t("header.aboutUs") }}</p>
           <p>{{ t("header.contactUs") }}</p>
         </div>

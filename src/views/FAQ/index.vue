@@ -7,7 +7,7 @@ const { t, locale } = useI18n();
 </script>
 <template>
   <div class="max-w-[1440px] mx-auto px-24">
-    <div class="pt-12">
+    <div class="pt-12 pb-16">
       <div class="relative">
         <p
           class="absolute ltr:left-8 rtl:right-8 top-[3px] text-2xl font-bold text-[#45315D] z-10"
@@ -25,11 +25,23 @@ const { t, locale } = useI18n();
         ></div>
       </div>
     </div>
-    <div class="relative pt-16 text-center">
-      <img src="/images/faq/faq.svg" class="" />
+    <div class="relative text-center group block">
+      <img src="/images/faq/faq.svg" class="object-cover w-full" />
+      <div
+        class="absolute bottom-0 left-0 right-0 top-0"
+        style="
+          border-radius: 20px;
+          opacity: 1;
+          background: rgba(69, 49, 93, 0.4902);
+        "
+      ></div>
       <div class="centered">
-        <p class="text-[42px] font-normal text-[#FF9280]">{{ t("faq.title") }}</p>
-        <p class="text-2xl font-normal text-white">{{ t("faq.discription") }}</p>
+        <p class="text-[42px] font-normal text-[#FF9280]">
+          {{ t("faq.title") }}
+        </p>
+        <p class="text-2xl font-normal text-white">
+          {{ t("faq.discription") }}
+        </p>
       </div>
     </div>
     <FAQ />

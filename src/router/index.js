@@ -5,7 +5,7 @@ const routes = [
     path: "/",
     name: "Canary",
     component: () => import("../layout/index.vue"),
-    // redirect: "/home",
+    redirect: "/home",
     // meta: {
     //   title: "Home",
     // },
@@ -65,6 +65,22 @@ const routes = [
         component: () => import("../views/FAQ/index.vue"),
         meta: {
           title: "faq",
+        },
+      },
+      {
+        path: "/about",
+        name: "About",
+        component: () => import("../views/About/index.vue"),
+        meta: {
+          title: "about",
+        },
+      },
+      {
+        path: "/contact",
+        name: "Contact",
+        component: () => import("../views/Contact/index.vue"),
+        meta: {
+          title: "Contact",
         },
       },
 

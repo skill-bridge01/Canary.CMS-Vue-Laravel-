@@ -36,7 +36,7 @@ const { t, locale } = useI18n();
           :content2="t('articles.fullArticle.content2')"
           :content3="t('articles.fullArticle.content3')"
           src="/images/articles/full/full.svg"
-          avatar="/images/articles/full/avatar.svg"
+          avatar="/images/articles/full/avatar.png"
         />
         <div>
           <p class="pb-3 text-start">{{ t("articles.fullArticle.similar") }}</p>

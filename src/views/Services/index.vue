@@ -12,7 +12,7 @@ const { t, locale } = useI18n();
         <p
           class="absolute ltr:left-8 rtl:right-8 top-[3px] text-2xl font-bold text-[#45315D] z-10"
         >
-          {{ t("about.title") }}
+          {{ t("home.ourServices.title") }}
         </p>
 
         <div

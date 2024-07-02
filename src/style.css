@@ -46,7 +46,8 @@ textarea:active {
 
 a {
   color: #e2e2e2;
-  text-decoration: inherit;
+  font-weight: 600;
+  /* text-decoration: inherit; */
 }
 a:hover,
 a:active {
@@ -59,22 +60,10 @@ a:active {
 } */
 
 /* visited link */
-a:visited {
+/* a:visited {
   font-weight: 700;
-  color: FFFFFF;
-}
-
-/* mouse over link */
-a:hover {
-  font-weight: 700;
-  color: FFFFFF;
-}
-
-/* selected link */
-a:active {
-  font-weight: 700;
-  color: FFFFFF;
-}
+  color: #ffffff;
+} */
 
 body {
   margin: 0;

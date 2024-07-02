@@ -13,7 +13,7 @@ import App from "./App.vue";
 const pinia = createPinia();
 
 const i18n = createI18n({
-  locale: "en",
+  locale: "ar",
   fallbackLocale: "en",
   messages: { en, ar },
   legacy: false,
